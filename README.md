@@ -4,8 +4,8 @@ Solver for **Parks** logic game.
 
 ## Rules
 
-In **Parks** there are differently coloured areas called - each of them represents a **park**.
-The goal of the game is to plan **trees** following the rules:
+In **Parks** there are differently coloured areas - each of them represents a **park**.
+The goal of the game is to plant **trees** using the following rules:
 
 1. Put exactly one **tree** in each **park**, row and column. 
 2. The **tree** cannot touch another **tree**.
@@ -23,7 +23,7 @@ The data is located in the `data` directory.
 
 ### Data processing
 
-We use `openCV` library for image preprocessing in order to extract the board representing **parks**.
+We use `openCV` library for image preprocessing in order to extract the board representing the **parks**.
 
 ### Solver
 
